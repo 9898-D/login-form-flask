@@ -15,8 +15,8 @@ try:
         MAIL_SERVER='smtp.gmail.com',
         MAIL_PORT='465',
         MAIL_USE_SSL=True,
-        MAIL_USERNAME='choubisadh2000.dc@gmail.com',
-        MAIL_PASSWORD='ujlxgeizqsoznuxd'
+        MAIL_USERNAME='Your Mail',
+        MAIL_PASSWORD='Your App Password'
     )
     mail=Mail(app)
 except Exception as e:
@@ -89,7 +89,7 @@ def createaccount():
                 name="Hello"
                 mail.send_message('New Message From ' + name,
                                   sender=email,
-                                  recipients='choubisadh2000.dc@gmail.com',
+                                  recipients='your mail',
                                   body='BROOOO'
                                   )
                 return "Successfully Register"
