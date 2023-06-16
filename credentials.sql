@@ -34,18 +34,6 @@ CREATE TABLE `credentials` (
   `username` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
---
--- Dumping data for table `credentials`
---
-
-INSERT INTO `credentials` (`sno`, `email_id`, `password`, `username`) VALUES
-(1, 'choubisadh2000.dc@gmail.com', 'Hello9898', 'Dhruv_Coder'),
-(2, 'Next_gen', 'dhruv', 'Next_gen'),
-(3, 'choubisadh2000.dc@gmail.com', 'abc123', 'Unknow'),
-(4, 'choubisadh2000.dc@gmail.com', 'abc123', 'Unknow1'),
-(5, 'choubisadh2000.dc@gmail.com', 'abc1', 'Unknow2');
-
---
 -- Indexes for dumped tables
 --
 
